@@ -6,16 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="myDiv"></div>
+   <div id="myDiv"></div>
 
     <script src="./assets/js/react.js"></script>
     <script src="./assets/js/react-dom.js"> </script>
-    
-    <script>
-        const element=React.createElement('h1',{className:'mmad'},'salam dadash')
-        ReactDOM.render(element ,document.getElementById("myDiv"))
-    </script>
+    <script src="./assets/js/babel.js"></script>
 
-  
+    <script type="text/babel">
+    //   const element=React.createElement('h1',{className:'mmad'},'salam dooste man')
+      ReactDOM.render(<h1>salam dooste man</h1> , document.getElementById("myDiv")) 
+    </script>
 </body>
 </html>
